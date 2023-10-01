@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>List Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>List Converter</h1>
+        <div class="input-container">
+            <textarea id="inputText" placeholder="Enter list of data here"></textarea>
+        </div>
+        <div class="options-container">
+            <div class="option">
+                <label for="delimiter">Delimiter:</label>
+                <input type="text" id="delimiter" placeholder="Enter delimiter">
+            </div>
+            <div class="option">
+                <label for="itemPrefix">Item Prefix:</label>
+                <input type="text" id="itemPrefix" placeholder="Enter item prefix">
+            </div>
+            <div class="option">
+                <label for="itemSuffix">Item Suffix:</label>
+                <input type="text" id="itemSuffix" placeholder="Enter item suffix">
+            </div>
+            <div class="option">
+                <label for="resultPrefix">Result Prefix:</label>
+                <input type="text" id="resultPrefix" placeholder="Enter result prefix">
+            </div>
+            <div class="option">
+                <label for="resultSuffix">Result Suffix:</label>
+                <input type="text" id="resultSuffix" placeholder="Enter result suffix">
+            </div>
+        </div>
+        <button id="convertBtn">Convert</button>
+        <div class="output-container">
+<h2>Converted List:</h2>
+<textarea id="outputText" readonly></textarea>
+</div>
+</div>
+   <script src="script.js"></script>
